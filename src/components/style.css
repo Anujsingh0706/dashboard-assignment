@@ -1,0 +1,118 @@
+.avatar-title {
+    align-items: center;
+    background-color: #3b76e1;
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+.container-fluid{
+    background: #f1f3f7;
+}
+.avatar{
+    height: 3rem;
+    width: 3rem;
+}
+.card{
+    margin-bottom: 24px;
+    box-shadow: 0 2px 3px #e4e8f0;
+
+}
+.card-body{
+    display: flex;
+}
+.card-title{
+    font-size: 16px;
+}
+.pic-midle{
+    position: relative;
+    top: -30px;
+}
+.badge-soft-success {
+    color: #63ad6f;
+    background-color: rgba(99,173,111,.1);
+}
+
+.font-size-13 {
+    font-size: 13px!important;
+}
+.badge-soft-danger {
+    color: #f56e6e;
+    background-color: rgba(245,110,110,.1);
+}
+.user-profile-img {
+    position: relative;
+}
+.user-profile-img .profile-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.user-profile-img .overlay-content {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(59,118,225,.8);
+    display: flex;
+    height: 100%;
+    color: hsla(0,0%,100%,.6);
+    flex-direction: column;
+}
+.avatar-xl {
+    height: 6rem;
+    width: 6rem;
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #f1f3f7;
+    border: 1px solid #eff0f2;
+    border-radius: 0.75rem;
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+.border-end {
+    border-right: 1px solid #eff0f2!important;
+}
+.text-muted {
+   opacity: 1;
+    color: #7f838b!important;
+}
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.avatar-md{
+    width: 4rem;
+}
+a{
+    text-decoration: none;
+}
+.fw-semibold {
+    font-weight: 600;
+}
+.avatar-sm{
+    height: 2rem;
+    width: 2rem;
+}
+.rounded-1{
+    border-radius: 0.6rem !important;
+}
+.rounded-2{
+    border-radius: 0.75rem !important;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-14{
+    font-size: 14px;
+}
+.w-xs {
+    min-width: 80px;
+}
